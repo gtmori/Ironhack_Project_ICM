@@ -5,7 +5,7 @@ color 4: #5D3280 */
 
 @font-face {
   font-family: '8bit';
-  src: url(/fonts/pressstart2p-webfont.woff);
+  src: url(./fonts/pressstart2p-webfont.woff);
 }
 
 body{

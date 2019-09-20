@@ -817,12 +817,12 @@ document.onkeydown = function (e) {
 // Create components of card
 
 let redCard = document.createElement("img")
-redCard.setAttribute('src','/images/redCard.png')
+redCard.setAttribute('src','./images/redCard.png')
 let redCardTitle = document.createElement("h2")
 
 
 let yellowCard = document.createElement("img")
-yellowCard.setAttribute('src','/images/yellowCard.png')
+yellowCard.setAttribute('src','./images/yellowCard.png')
 let yellowCardTitle = document.createElement("h2")
 
 // <------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -880,7 +880,7 @@ divWin.classList.add("gameSpace")
 divWin.classList.add("winCenter")
 let trophy = document.createElement("img")
 trophy.classList.add("trophy")
-trophy.setAttribute('src','/images/trophy.png')
+trophy.setAttribute('src','./images/trophy.png')
 let champTitle = document.createElement("h1")
 champTitle.classList.add("champTitle1")
 
@@ -904,7 +904,7 @@ divLose.classList.add("gameSpace")
 divLose.classList.add("winCenter")
 let practiceMore = document.createElement("img")
 practiceMore.classList.add("practiceMore")
-practiceMore.setAttribute('src','/images/practicemore.png')
+practiceMore.setAttribute('src','./images/practicemore.png')
 let practiceTitle = document.createElement("h1")
 practiceTitle.classList.add("champTitle1")
 
@@ -923,6 +923,6 @@ function loser() {
 // DOM Manipulation - Game
 // Adding a sound
 
-let apito = new Audio('/audio/apitodefutebol.mp3')
-let golAudio = new Audio('/audio/gol.mp3')
-let defendAudio = new Audio('/audio/defend.mp3')
+let apito = new Audio('./audio/apitodefutebol.mp3')
+let golAudio = new Audio('./audio/gol.mp3')
+let defendAudio = new Audio('./audio/defend.mp3')
