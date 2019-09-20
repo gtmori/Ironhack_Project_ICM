@@ -1,0 +1,369 @@
+/* color 1: #94FFCD
+color 2: #708079
+color 3: #DBB0FF
+color 4: #5D3280 */
+
+@font-face {
+  font-family: '8bit';
+  src: url(/fonts/pressstart2p-webfont.woff);
+}
+
+body{
+  font-family: 'Montserrat';
+  
+}
+
+.backgroundSpace {
+  background-image: url(./images/13090708505_18a462d62f_k.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.startSpace {
+  height: 100em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameSpace {
+  background-color:rgb(156, 152, 152, 0.8);   
+  position: relative;
+  width: 95em;
+  height: 80%;
+  margin:   auto;
+  padding: 5%;
+}
+
+.h1Title {  
+  font-family: '8bit';
+  font-size: 50px;
+  color: lime;
+  text-align: center;
+  height: 20%;
+}
+.imgLogo {
+  height: 100%;  
+}
+
+.startGame {
+  font-family: 'Montserrat';
+  color: white;
+  background-color: #5D3280;
+  border: 1px solid #5D3280;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.titleBegin {
+  color: #5D3280;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.inputName {
+  font-family: 'Montserrat';
+  position: relative;
+  height: 5%;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50%;
+  color: #5D3280;
+  background-color: #DBB0FF;  
+}
+
+.marginBottom {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.marginLRAuto {
+  margin: 0 auto;
+}
+
+.textCenter {
+  margin: auto;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+
+.marginTop {
+  margin-top: 300px;
+}
+
+.divTeams {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.logo {
+   width: 80px;
+ }
+
+.buttonTeam {
+  font-family: 'Montserrat';
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 700;
+ }
+
+.palColor {
+  color: white;
+  background-color: rgb(29, 91, 60);
+  border: 1px solid rgb(29, 91, 60);
+}
+
+.corColor {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.spColor {
+  color: black;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.sanColor {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.buttonActiveCor {
+  border: 3px solid black;
+}
+
+.buttonActivePal {
+  border: 3px solid rgb(29, 91, 60);
+}
+
+.buttonActiveSP {
+  border: 3px solid red;
+}
+
+.buttonActiveSan {
+  border: 3px solid white;
+}
+
+.divTeamInfo {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.h1Team {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin:5px 0;
+}
+
+.h2Team {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin:5px 0;
+}
+
+.playersList {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.divMiddle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.divMiddleRight {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.divPlayersInfo {
+  width: 48%;
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.liTitle {
+  margin-bottom: 10px;
+}
+
+.liList{
+  padding: 5px;
+}
+.divListInfo{ 
+  width: 50%;
+}
+.divListInfoPosHab {
+  width: 25%;
+}
+
+.h2NextOp {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%
+}
+
+.formationButton {
+  font-family: '8bit';
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.divFormation {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+}
+
+.buttonActiveForm{
+  color: white;
+  background-color: #5D3280;
+  border: 1px solid #5D3280;
+}
+
+.h3Legend {
+  font-size: 20px;
+  width: 100%;
+}
+
+.divHeaderGame {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.divTeamsHeader {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 40%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.divEleven {
+  width: 25%;
+  height: 100%;
+}
+
+.gameTimer {
+  vertical-align: 50%;
+  font-size: 25px;
+  font-weight: 700;
+  color: yellow;
+}
+
+.liListGame {
+  padding: 15px 5px;
+}
+
+.oppGoal {
+  width: 30em;
+}
+
+.divEvents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+
+.h2EventTitle {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.explication {
+  color: black;
+  font-size: 15px;
+}
+
+.goal {
+  font-size: 30px;
+  font-weight: 700;
+  color: red;
+}
+
+.imgGoal {
+  width: 60%;
+}
+
+.defGoal {
+  width: 60%;
+}
+
+.redCardTitle {
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.yellowCardTitle {
+  background-color: yellow;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cardSize {
+  width: 30%;
+}
+
+
+.champTitle1 {
+  color: red;
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+.trophy {
+  width: 40%;
+}
+
+.winCenter {
+  text-align: center;
+}
+
+.practiceMore {
+  width: 30%;
+}
