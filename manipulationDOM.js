@@ -26,22 +26,22 @@ sanDiv.classList.add('divTeams');
 
 //logo Cor
 let corLogo = document.createElement('img');
-corLogo.setAttribute('src','/images/logo-do-corinthians-256.png');
+corLogo.setAttribute('src','./images/logo-do-corinthians-256.png');
 corLogo.classList.add('logo');
 
 //logo Pal
 let palLogo = document.createElement('img');
-palLogo.setAttribute('src','/images/logo-palmeiras-256.png');
+palLogo.setAttribute('src','./images/logo-palmeiras-256.png');
 palLogo.classList.add('logo');
 
 //logo SP
 let spLogo = document.createElement('img')
-spLogo.setAttribute('src','/images/logo-sao-paulo-256.png')
+spLogo.setAttribute('src','./images/logo-sao-paulo-256.png')
 spLogo.classList.add('logo')
 
 //logo San
 let sanLogo = document.createElement('img')
-sanLogo.setAttribute('src','/images/logo-santos-256.png')
+sanLogo.setAttribute('src','./images/logo-santos-256.png')
 sanLogo.classList.add('logo')
 
 //button Cor
@@ -668,26 +668,26 @@ function updateGame (gameTime, homeScore, awayScore) {
 
 //Elemensts of opportunity of goal
 let oppGoal = document.createElement("img")
-oppGoal.setAttribute('src','/images/OportunityGoal.png')
+oppGoal.setAttribute('src','./images/OportunityGoal.png')
 oppGoal.classList.add("oppGoal")
 let oppGoalTitle = document.createElement("h3")
 let explicationScore = document.createElement("h4")
 
 //Elements of opportunity of defend
 let oppDef = document.createElement("img")
-oppDef.setAttribute('src','/images/defendGoal.png')
+oppDef.setAttribute('src','./images/defendGoal.png')
 oppDef.classList.add("defGoal")
 let oppDefTitle = document.createElement("h3")
 let explicationDef = document.createElement("h4")
 
 //Elements of score a goal
 let scoreGoal = document.createElement("img")
-scoreGoal.setAttribute('src','/images/goal.png')
+scoreGoal.setAttribute('src','./images/goal.png')
 let scoreGoalTitle = document.createElement("h3")
 
 //Elements of score a goal
 let defendGoal = document.createElement("img")
-defendGoal.setAttribute('src','/images/goalkeeper.png')
+defendGoal.setAttribute('src','./images/goalkeeper.png')
 let defendGoalTitle = document.createElement("h3")
 
 
