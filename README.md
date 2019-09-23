@@ -6,7 +6,7 @@ Built in HTML, CSS and JavaScript
 The player choose one team to play and the formation of the players for a match. During the match, there are different probabilities for each event of the game.
 
 ## How it works
-As a standart, it is programmated to happen one event per second and divided in: nothing happens 85%, chance of goal of 10%, yellow card of 4% and red card of 1%.
+As a standard, it is programmated to happen one event per second and divided in: nothing happens 85%, chance of goal of 10%, yellow card of 4% and red card of 1%.
 Thus, a match consists in 90 seconds that represents 90 events. After a event is drawn, there are a 50% chance for each team to "take" this event. Unless, the events of goal, that is based on the average of the hability of the team.
 In events of goal or defend, there a 50% to score or defend based on the player choice.
 
